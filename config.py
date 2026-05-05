@@ -29,7 +29,8 @@ ADMINS = int(os.environ.get("ADMINS", "1246987713"))
 CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1003654284775")
 
 # Session string for user client
-SESSION_STRING = os.environ.get("SESSION_STRING")
+SESSION_STRING = os.environ.get("SESSION_STRING", "BQGmd-8AsfvjnH7sRCG6FWsLwxbOSfz4DlAUW0d5QVDoiyI4a8uhpvDrulhM0CLo9CDjYrJuhRreuAuaKDEPa8oeEchS_xO1WaVEeScc3J0kinl89xWM6EHNRU9wI-v-Uu_uS7-Wkf7lQAYYyf7RGkQHeNiXvOvc2Xs5h0GPChXtAMYafEcbSXxTYj8SXeNB513dqIU6rHl0hKhkkRde8UJWVzhAtL-jb--UXIjSUNz9C81EYKa2wn26Wj4J21GKPZuREu-WTBNfmDJzvpdGeJBQxFt3t5gOYf106zOAjds-cdkh6CoZPHOEx8_2vJeXPGKcgxZJz_imnGjLrV7qlwsW30vvQAAAAABKU4XBAA")
+
 
 # --- Validation ---
 if not BOT_TOKEN or ":" not in BOT_TOKEN:
